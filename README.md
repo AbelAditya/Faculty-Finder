@@ -9,7 +9,7 @@ This Flutter project allows users to search for a faculty member’s cabin detai
 - **Simple UI:** Clean and minimal user interface for easy navigation.
 
 ## Screenshots
-   [](https://github.com/AbelAditya/Faculty-Finder/blob/master/assets/recording.webm)
+<img align="left" src="./assets/recording.gif" alt="Coding GIF">
 
 ## Requirements
 
