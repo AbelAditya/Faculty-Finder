@@ -1,16 +1,41 @@
-# faculty_finder
+# Faculty Finder
 
-A new Flutter project.
+This Flutter project allows users to search for a faculty member’s cabin details by simply entering the faculty member's name. The app uses a pre-defined list of faculty names and their cabin details stored locally within the app.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- **Faculty Search:** Enter the faculty member's name to get their cabin details.
+- **Instant Results:** Retrieves cabin information from a local data source.
+- **Simple UI:** Clean and minimal user interface for easy navigation.
 
-A few resources to get you started if this is your first Flutter project:
+## Screenshots
+*(Add screenshots here to give users a visual preview of the app)*
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Requirements
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter 3.x.x or higher
+- Dart 2.x.x or higher
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/faculty-cabin-finder.git
+   cd faculty-cabin-finder
+
+2. Install dependencies:
+   ```bash
+   flutter pub get
+
+3. Run the App:
+   ```bash
+   flutter run
+
+## Project Structure
+
+    ```bash
+    lib/
+    ├── data/                 # Local data files with faculty details
+    ├── components/           # Custom reusable widgets
+    ├── screens/              # UI screens for searching and displaying results
+    └── main.dart             # Entry point of the app

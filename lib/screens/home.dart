@@ -47,12 +47,16 @@ class _HomeState extends State<Home> {
                   );
                 },
               ),
-              temp.isEmpty ? const SizedBox(height: 40,):Container(),
+              temp.isEmpty
+                  ? const SizedBox(
+                      height: 40,
+                    )
+                  : Container(),
               temp.isEmpty
                   ? const Text(
-                    "Search for Faculty",
-                    style: TextStyle(fontSize: 20),
-                  )
+                      "Search for Faculty",
+                      style: TextStyle(fontSize: 20),
+                    )
                   : Expanded(
                       child: ListView.builder(
                         itemBuilder: (context, index) {
