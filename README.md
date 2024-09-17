@@ -8,8 +8,8 @@ This Flutter project allows users to search for a faculty member’s cabin detai
 - **Instant Results:** Retrieves cabin information from a local data source.
 - **Simple UI:** Clean and minimal user interface for easy navigation.
 
-## Screenshots
-![demo gif](./assets/recording.gif)
+## Demo
+<img src="./assets/recording.gif" height=500/>
 
 ## Requirements
 
