@@ -33,7 +33,6 @@ This Flutter project allows users to search for a faculty member’s cabin detai
 
 ## Project Structure
 
-    ```bash
     lib/
     ├── data/                 # Local data files with faculty details
     ├── components/           # Custom reusable widgets
